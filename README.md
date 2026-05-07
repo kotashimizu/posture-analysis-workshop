@@ -54,7 +54,8 @@ posture-analysis-workshop/
 │   ├── 02_必要ツール.md
 │   ├── 03_Kendall姿勢評価とは.md
 │   └── 04_MediaPipeとは.md
-├── public/                      # サンプル素材を置く場所（自分の素材を入れてもOK）
+├── public/
+│   └── sample-materials/        # 撮影サンプル素材（矢状面・前額面・動画）
 └── _complete-reference/         # 完成版アプリ一式（詰まった時の参照用）
 ```
 
