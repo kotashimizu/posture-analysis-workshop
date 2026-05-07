@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  font-family:
+    Inter, "Noto Sans JP", "Yu Gothic", YuGothic, "Hiragino Sans", system-ui,
+    sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-break: strict;
+  background: #f8fafc;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+.button,
+.label,
+[data-nowrap] {
+  word-break: keep-all;
+  overflow-wrap: normal;
+  line-break: strict;
+  white-space: nowrap;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+canvas,
+video,
+img {
+  max-width: 100%;
+}
+
+input[type="range"] {
+  accent-color: #1e3a8a;
+}
+
+.focus-ring {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus-ring:focus-visible {
+  outline-color: #2563eb;
+}
